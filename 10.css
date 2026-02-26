@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero{
+    height: 900px;
+    background-image: url(Z.webp);
+    background-size:cover;
+}
+
+text{
+    margin-top:150px ;
+    margin-bottom: 0;
+    color: rgb(126, 0, 0);
+    font-size: 500px;
+    align-items: center;
+}
+
+.text1{
+   display: flex;
+   flex-direction:column;
+   padding-right: 600px;
+   font-size: 50px;
+   text-shadow: 3px 3px 9px rgb(214, 214, 214);
+   color: aliceblue;
+}
+
+.text2{
+    color: rgb(4, 4, 117);
+    text-shadow: darkred;
+    font-size: 30px;
+}
+
+.text3{
+    color: darkred;
+    text-shadow: darkred;
+    font-size: 30px;
+}
+
+header{
+        background-color: rgb(189, 187, 148);
+    }
+
+.card{
+    width: 11vw;
+    height: 22vh;
+    box-shadow:shadow;
+    border-radius: 10%;
+    color:rgb(21, 255, 0)
+}
+
+.card:hover{
+    box-shadow: 1.5px 1.5px 1.5px ;
+    transform: translateY(-2px);
+    transition: 0.5s;
+}
+
+.card_img{
+ width: 11vw;
+ height: 12vh;
+ border-radius:  6% 6% 0 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 3px 30px;
+}
+
+.menu1{
+    color: rgb(255, 255, 255);
+    font-size:20px ;
+    border-radius: 20px;
+    text-shadow: none;
+    display: flex;
+    justify-content: center;
+    padding-right:20px ;
+    padding-left:20px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu1:hover{
+    transition: 0.10s;
+    background-color: brown;
+}
+
+.card2{
+    width: 11vw;
+    height: 22vh;
+    box-shadow:shadow;
+    border-radius: 10%;
+    color:rgb(163, 0, 0)
+}
+.card2:hover{
+    box-shadow: 1.5px 1.5px 1.5px ;
+    transform: translateY(-2px);
+    transition: 0.5s;
+}
+
+.card2_img{
+ width: 11vw;
+ height: 12vh;
+ border-radius:  6% 6% 0 0;
+}
+
+.card3{
+    width: 11vw;
+    height: 22vh;
+    box-shadow:shadow;
+    border-radius: 10%;
+    color:rgb(0, 102, 255)
+}
+.card3:hover{
+    box-shadow: 1.5px 1.5px 1.5px ;
+    transform: translateY(-2px);
+    transition: 0.5s;
+}
+
+.card3_img{
+ width: 11vw;
+ height: 12vh;
+ border-radius:  6% 6% 0 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 20px;
+}
